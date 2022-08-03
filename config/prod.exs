@@ -11,8 +11,7 @@ import Config
 # before starting your production server.
 config :uberphoenix, UberphoenixWeb.Endpoint,
   cache_static_manifest: "priv/static/cache_manifest.json",
-  path: System.get_env("PHX_PATH", "/"),
-
+  path: System.get_env("PHX_PATH", "/")
 
 # Do not print debug messages in production
 config :logger, level: :info

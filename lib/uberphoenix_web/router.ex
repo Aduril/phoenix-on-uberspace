@@ -14,7 +14,7 @@ defmodule UberphoenixWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", UberphoenixWeb do
+  scope System.get_env("PHX_PATH", "/"), UberphoenixWeb do
     pipe_through :browser
 
     get "/", PageController, :index
