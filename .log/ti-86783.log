@@ -1,0 +1,61 @@
+[17:02:40.284] Global cache location '/Users/petermelint/Library/Caches/typescript/4.7', safe file path '/users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/typingsafelist.json', types map path /users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/typesmap.json
+[17:02:40.285] Processing cache location '/Users/petermelint/Library/Caches/typescript/4.7'
+[17:02:40.285] Trying to find '/Users/petermelint/Library/Caches/typescript/4.7/package.json'...
+[17:02:40.286] Loaded content of '/Users/petermelint/Library/Caches/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.603"},"devDependencies":{"@types/atob":"^2.1.2","@types/chai":"^4.3.1","@types/conventional-changelog":"^3.1.1","@types/eslint":"^8.4.5","@types/jws":"^3.2.4","@types/lodash.includes":"^4.3.7","@types/lodash.isboolean":"^3.0.7","@types/lodash.isinteger":"^4.0.7","@types/lodash.isnumber":"^3.0.7","@types/lodash.isplainobject":"^4.0.7","@types/lodash.isstring":"^4.0.7","@types/lodash.once":"^4.1.7","@types/mocha":"^9.1.1","@types/ms":"^0.7.31","@types/phoenix":"^1.5.4","@types/phoenix_live_view":"^0.15.1","@types/semver":"^7.3.10","@types/sinon":"^10.0.13"}}
+[17:02:40.286] Loaded content of '/Users/petermelint/Library/Caches/typescript/4.7/package-lock.json'
+[17:02:40.293] Adding entry into typings cache: 'atob' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/atob/index.d.ts'
+[17:02:40.295] Adding entry into typings cache: 'chai' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/chai/index.d.ts'
+[17:02:40.295] Adding entry into typings cache: 'conventional-changelog' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/conventional-changelog/index.d.ts'
+[17:02:40.297] Adding entry into typings cache: 'eslint' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/eslint/index.d.ts'
+[17:02:40.298] Adding entry into typings cache: 'jws' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/jws/index.d.ts'
+[17:02:40.299] Adding entry into typings cache: 'lodash.includes' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/lodash.includes/index.d.ts'
+[17:02:40.300] Adding entry into typings cache: 'lodash.isboolean' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/lodash.isboolean/index.d.ts'
+[17:02:40.301] Adding entry into typings cache: 'lodash.isinteger' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/lodash.isinteger/index.d.ts'
+[17:02:40.302] Adding entry into typings cache: 'lodash.isnumber' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/lodash.isnumber/index.d.ts'
+[17:02:40.303] Adding entry into typings cache: 'lodash.isplainobject' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/lodash.isplainobject/index.d.ts'
+[17:02:40.303] Adding entry into typings cache: 'lodash.isstring' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/lodash.isstring/index.d.ts'
+[17:02:40.304] Adding entry into typings cache: 'lodash.once' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/lodash.once/index.d.ts'
+[17:02:40.305] Adding entry into typings cache: 'mocha' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/mocha/index.d.ts'
+[17:02:40.305] Adding entry into typings cache: 'ms' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/ms/index.d.ts'
+[17:02:40.306] Adding entry into typings cache: 'phoenix' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/phoenix/index.d.ts'
+[17:02:40.307] Adding entry into typings cache: 'phoenix_live_view' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/phoenix_live_view/index.d.ts'
+[17:02:40.307] Adding entry into typings cache: 'semver' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/semver/index.d.ts'
+[17:02:40.308] Adding entry into typings cache: 'sinon' => '/Users/petermelint/Library/Caches/typescript/4.7/node_modules/@types/sinon/index.d.ts'
+[17:02:40.308] Finished processing cache location '/Users/petermelint/Library/Caches/typescript/4.7'
+[17:02:40.308] Process id: 86784
+[17:02:40.309] NPM location: /Users/petermelint/.asdf/installs/nodejs/16.11.0/bin/npm (explicit '--npmLocation' not  provided)
+[17:02:40.309] validateDefaultNpmLocation: false
+[17:02:40.309] Npm config file: /Users/petermelint/Library/Caches/typescript/4.7/package.json
+[17:02:40.309] Updating types-registry npm package...
+[17:02:40.309] Exec: /Users/petermelint/.asdf/installs/nodejs/16.11.0/bin/npm install --ignore-scripts types-registry@latest
+[17:02:41.181]     Succeeded. stdout:
+    
+    up to date, audited 31 packages in 763ms
+
+found 0 vulnerabilities
+
+[17:02:41.181] Updated types-registry npm package
+[17:02:41.199] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es5.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2016.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.dom.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/topbar.js","/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/app.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["phoenix_html"],"projectRootPath":"/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js","kind":"discover"}
+[17:02:41.205] Loaded safelist from types map file '/users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/typesmap.json'
+[17:02:41.205] Explicitly included types: []
+[17:02:41.206] Inferred typings from unresolved imports: ["phoenix_html"]
+[17:02:41.206] Result: {"cachedTypingPaths":[],"newTypingNames":["phoenix_html"],"filesToWatch":["/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/bower_components","/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/node_modules","/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/bower_components","/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/node_modules"]}
+[17:02:41.206] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["phoenix_html"],"filesToWatch":["/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/bower_components","/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/node_modules","/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/bower_components","/Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/node_modules"]}
+[17:02:41.206] DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/bower_components
+[17:02:41.206] DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:02:41.207] Elapsed:: 0.4912090301513672ms DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:02:41.207] DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/node_modules
+[17:02:41.207] DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:02:41.207] Elapsed:: 0.12750005722045898ms DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/vendor/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:02:41.207] DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/bower_components
+[17:02:41.207] DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:02:41.207] Elapsed:: 0.032833099365234375ms DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:02:41.208] DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/node_modules
+[17:02:41.208] DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:02:41.208] Elapsed:: 0.029582977294921875ms DirectoryWatcher:: Added:: WatchInfo: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:02:41.208] Installing typings ["phoenix_html"]
+[17:02:41.208] 'phoenix_html':: Entry for package 'phoenix_html' does not exist in local types registry - skipping...
+[17:02:41.208] All typings are known to be missing or invalid - no need to install more typings
+[17:02:41.208] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["phoenix_html"],"kind":"action::set"}
+[17:02:41.208] Response has been sent.

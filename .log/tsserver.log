@@ -1,0 +1,14 @@
+Info 0    [17:02:40.177] Starting TS Server
+Info 1    [17:02:40.178] Version: 4.7.2
+Info 2    [17:02:40.178] Arguments: /Users/petermelint/.asdf/installs/nodejs/16.11.0/bin/node /Users/petermelint/.asdf/installs/nodejs/16.11.0/.npm/lib/node_modules/typescript/lib/tsserver.js --logFile /Users/petermelint/Repositories/private/phoenix-on-uberspace/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/cq/p76mbbj50rbbl0rkdj5qntx40000gn/T/2382b3c3bcb56470838f924dee03366e/tscancellation*
+Info 3    [17:02:40.178] Platform: darwin NodeVersion: 16 CaseSensitive: false
+Info 4    [17:02:40.178] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [17:02:40.185] Format host information updated
+Info 6    [17:02:40.191] Search path: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js
+Info 7    [17:02:40.191] For info: /Users/petermelint/Repositories/private/phoenix-on-uberspace/assets/js/app.js :: No config files found.
+Info 8    [17:02:40.194] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [17:02:40.466] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 272.2734580039978ms
+Info 10   [17:02:40.466] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [17:02:40.466] 	Files (22)
+
+Info 12   [17:02:40.466] -----------------------------------------------
