@@ -8,7 +8,7 @@
 import Config
 
 config :uberphoenix,
-  ecto_repos: [Uberphoenix.Repo]
+  ecto_repos: [Uberphoenix.Repo],
   uberspace_path: System.get_env("PHX_PATH", "/"),
 
 
