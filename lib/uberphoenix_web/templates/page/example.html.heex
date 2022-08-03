@@ -1,0 +1,33 @@
+<section class="phx-hero">
+  <h1><%= gettext "Welcome to %{name}!", name: "Uberphoenix" %></h1>
+</section>
+
+<section class="row">
+  <article class="column">
+    <h2>Examples, Examples, Examples</h2>
+    <table style="max-width: 30em;">
+      <tr>
+        <th phx-click="sortby" phx-value-sortby="active">Active</th>
+        <th phx-click="sortby" phx-value-sortby="name">Name</th>
+        <th style="text-align: right;" phx-click="sortby" phx-value-sortby="amount">Amount</th>
+      </tr>
+      <.form for={@changeset} let={f} phx-change="change_active" phx-submit="submit">
+        <fieldset>
+          <%= for %{ params: params } = f_example <- inputs_for(f, :examples) do %>
+            <tr>
+              <%= hidden_input f_example, :example_id, value: params["example_id"] %>
+             <td> <%= checkbox f_example, :is_active %></td>
+             <td> <%= params["name"]  %></td>
+             <td style="text-align: right;" > <%= :erlang.float_to_binary(params["amount"], decimals: 2) %></td>
+            </tr>
+          <% end %>
+        </fieldset>
+      </.form>
+        <tr>
+          <td/>
+          <td><b>Total</b></td>
+          <td style="text-align: right;"><b><%= @sum %></b></td>
+        </tr>
+    </table>
+  </article>
+</section>
