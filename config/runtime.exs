@@ -51,7 +51,7 @@ if config_env() == :prod do
   path = System.get_env("PHX_PATH") || "/"
 
   config :uberphoenix, UberphoenixWeb.Endpoint,
-    url: [host: host, port: 80, scheme: "http"],
+    url: [host: host, port: 443, scheme: "https"],
     static_url: [path: path],
     http: [
       # Enable IPv6 and bind on all interfaces.

@@ -48,7 +48,13 @@ defmodule UberphoenixWeb.Router do
   # Note that preview only shows emails that were sent by the same
   # node running the Phoenix server.
   if Mix.env() == :dev do
-    scope "#{Application.get_env(:uberphoenix, :uberspace_path)}/dev" do
+    dev_path =
+      case Application.get_env(:uberphoenix, :uberspace_path) do
+        "/" -> "/dev"
+        path -> "#{path}/dev"
+      end
+
+    scope dev_path do
       pipe_through :browser
 
       forward "/mailbox", Plug.Swoosh.MailboxPreview

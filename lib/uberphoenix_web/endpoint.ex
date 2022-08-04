@@ -9,8 +9,13 @@ defmodule UberphoenixWeb.Endpoint do
     key: "_uberphoenix_key",
     signing_salt: "uZ7sCbRG"
   ]
+  live_url =
+    case Application.get_env(:uberphoenix, :uberspace_live_path) do
+      "/" -> "/live"
+      path -> "#{path}/live"
+    end
 
-  socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]
+  socket live_url, Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]
 
   # Serve at "/" the static files from "priv/static" directory.
   #
@@ -25,7 +30,13 @@ defmodule UberphoenixWeb.Endpoint do
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
   if code_reloading? do
-    socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
+    live_reload_url =
+      case Application.get_env(:uberphoenix, :uberspace_path) do
+        "/" -> "/phoenix/live_reload/socket"
+        path -> "#{path}/phoenix/live_reload/socket"
+      end
+
+    socket live_reload_url, Phoenix.LiveReloader.Socket
     plug Phoenix.LiveReloader
     plug Phoenix.CodeReloader
     plug Phoenix.Ecto.CheckRepoStatus, otp_app: :uberphoenix

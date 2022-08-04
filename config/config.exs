@@ -9,7 +9,8 @@ import Config
 
 config :uberphoenix,
   ecto_repos: [Uberphoenix.Repo],
-  uberspace_path: System.get_env("PHX_PATH", "/")
+  uberspace_path: System.get_env("PHX_PATH", "/"),
+  uberspace_live_path: System.get_env("PHX_LIVE_PATH", "/")
 
 # Configures the endpoint
 config :uberphoenix, UberphoenixWeb.Endpoint,
