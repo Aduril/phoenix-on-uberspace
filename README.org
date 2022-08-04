@@ -115,6 +115,8 @@ If you do this you will have to replace the live route within the ~app.js~. This
   sed -i "s/\"\/live\"/\""${PHX_LIVE_PATH//\//\\/}"\/live\"/" assets/js/app.js
 #+END_SRC
 
+If you had your app running before, do not forget to run a ~mix phx.digest~ after this change
+
 ** Test Run for Your Phoenix Application
 
 Run the default script
