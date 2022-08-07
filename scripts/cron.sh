@@ -20,5 +20,5 @@ if [ "$NO_OF_NEW_COMMITS" -gt "0" ]; then
   supervisorctl reread
   supervisorctl update
 else
-  echo "Nothing to update!"
+  echo "Nothing to update here!"
 fi
