@@ -4,7 +4,7 @@ cd "${PROJECT_DIR}/.."
 git fetch
 NO_OF_NEW_COMMITS=$(git rev-list main...origin/main --count)
 if [ "$NO_OF_NEW_COMMITS" -gt "0" ]; then
-  echo "will update!"
+  echo "I will update now!"
   source "$HOME/.uberphoenix_env"
   supervisorctl stop uberphoenix
   supervisorctl remove uberphoenix
