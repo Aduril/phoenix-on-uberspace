@@ -19,5 +19,6 @@ if [ "$NO_OF_NEW_COMMITS" -gt "0" ]; then
   mix phx.digest
   supervisorctl reread
   supervisorctl update
-
+else
+  echo "Nothing to update!"
 fi
