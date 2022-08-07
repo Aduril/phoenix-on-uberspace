@@ -146,8 +146,9 @@ command=%(ENV_HOME)s/THE/PATH/TO/YOUR/PROJECT/scripts/start.sh
 autostart=yes
 autorestart=yes
 startsec=60
+stopsignal=KILL
+stopasgroup=true
 #+END_SRC
-
 
 The start script simply loads the ~.env~ file
 
@@ -162,11 +163,25 @@ Start the process by running
   supervisorctl reread; supervisorctl update; supervisorctl tail -f uberphoenix
 #+END_SRC
 
+If you want to experiment with the ~.ini~ file and want to have a fast feedback loop run the following snippet after changing the file:
+
+#+BEGIN_SRC bash
+  supervisorctl stop uberphoenix; supervisorctl remove uberphoenix; supervisorctl reread; supervisorctl update; supervisorctl tail -f uberphoenix;
+#+END_SRC
+
 *** Automate deployment
+
+Simplest way to automate the deployment is to add a cronjob that fetches new changes on your main branch. A simple example can be found in [[file:scripts/cron.sh][scripts/cron.sh]]. It includes a short downtime for your project while it's compiling and the migrations are running. Feel free to exapnd from here.
 
 ** Troubleshooting
 
-Just fiddle around and try some stuff. In severe cases open an issue.
+In general: Just fiddle around and try some stuff. In severe cases open an issue. Otherwise I will add known issues down here:
 
+*** The application says it's already running
 
+I noticed that sometimes the shutdown of the service is not done properly. If so, just run
+
+#+BEGIN_SRC  bash
+  kill -9 $(lsof -t -i tcp:$PHX_PORT)
+#+END_SRC
 
