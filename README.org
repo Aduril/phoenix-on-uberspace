@@ -134,6 +134,36 @@ After this your server should be ready to use.
 
 To be added :)
 
+*** How to run the project automatically
+
+I simply added a file named ~\~/etc/services.d/uberphoenix.ini~ with the following content:
+
+#+BEGIN_SRC
+[program:uberphoenix]
+user=<YOURUSER>
+directory=%(ENV_HOME)s/THE/PATH/TO/YOUR/PROJECT
+command=%(ENV_HOME)s/THE/PATH/TO/YOUR/PROJECT/scripts/start.sh
+autostart=yes
+autorestart=yes
+startsec=60
+#+END_SRC
+
+
+The start script simply loads the ~.env~ file
+
+#+BEGIN_SRC bash
+  source $HOME/.uberphoenix_env
+  mix phx.server
+#+END_SRC
+
+Start the process by running
+
+#+BEGIN_SRC bash
+  supervisorctl reread; supervisorctl update; supervisorctl tail -f uberphoenix
+#+END_SRC
+
+*** Automate deployment
+
 ** Troubleshooting
 
 Just fiddle around and try some stuff. In severe cases open an issue.
