@@ -1,3 +1,5 @@
+#+OPTIONS: toc:3
+
 * Uberphoenix
 
 Like many people I am a fan of the Hoster [[https://uberspace.de][Uberspace]]. If you don't know them and you are looking for a flexible hoster to try out new things, consider joining them. They have a first rate support and a price range starting at 5€. This low price comes with... well, a price: It's a shared hoster, hence you will have to do some things a bit different. :)
